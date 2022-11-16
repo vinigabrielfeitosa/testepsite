@@ -166,13 +166,13 @@ h3{
 
   
   /* Small devices (landscape phones, 576px and up) */
-  @media (min-width: 380px) {
+  @media (min-width: 576px) {
     
     main{
       width: 100%;
     }
     .cards{
-      /* border: 1px solid red; */
+      border: 1px solid red;
     }
     .card{
       margin-left: 33px;
@@ -180,7 +180,7 @@ h3{
   }
   
   /* Medium devices (tablets, 768px and up) */
-  @media (min-width: 570px) {
+  @media (min-width: 768px) {
     .form-inline .form-control {
       width: 210px;
     }
